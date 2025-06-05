@@ -11,7 +11,7 @@ unsigned long Device::ntpMillis = 0;
 uint8_t Device::clientNum = 0;
 String deviceTypeToString(DeviceType type) {
   switch (type) {
-    case DeviceType::MOTOR: return "MOTOR";
+    case DeviceType::MOTOR: return "MOTOR"; 
     case DeviceType::TANK: return "TANK";
     case DeviceType::VALVE: return "VALVE";
     case DeviceType::OTHER: return "OTHER";
